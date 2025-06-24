@@ -16,11 +16,11 @@ func checkBMI(bmi float64) {
 	if bmi < 18.5 {
 		fmt.Println("You are Underweight")
 	} else if bmi < 25.0 {
-		fmt.Println("You are Normal weight")
+		fmt.Println("You are Normalweight")
 	} else if bmi < 30.0 {
 		fmt.Println("You are Overweight")
 	} else {
-		fmt.Println("You are fat")
+		fmt.Println("You are Obese")
 	}
 }
 
